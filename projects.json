@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Quantized Yolov5",
+        "description": "This project is designed for training Yolo(v1, v3, v5) architectures using different quantization. It utilizes [Brevitas](https://github.com/Xilinx/brevitas) which is a Pytorch research library for quantization-aware training (QAT) from Xilinx. The code is developed on top of [YOLOV5](https://github.com/ultralytics/yolov5).",
+        "image": "./assets/quantized-yolov5.png",
+        "demo": "https://github.com/sefaburakokcu/quantized-yolov5",
+        "date": "2021-12-15",
+        "tags": ["yolov5", "yolov1", "quantization", "finn"]
+    },
+    {
+        "name": "Low-Precision Neural Networks for Classification",
+        "description": "This project contains training, evaluation and deploy scripts of some models for classification.\nFor training, [Brevitas](https://github.com/Xilinx/brevitas) which is a PyTorch research library for quantization-aware training (QAT) is utilized and [FINN](https://github.com/Xilinx/finn) which is an experimental framework from Xilinx Research Labs to explore deep neural network inference on FPGAs is used for deploying models on a [PYNQ-Z2](http://www.pynq.io/board.html) board.",
+        "image": "./assets/finn-quantized-classification.png",
+        "demo": "https://github.com/sefaburakokcu/finn-quantized-classification",
+        "date": "2021-04-11",
+        "tags": ["finn", "classification", "quantization"]
+    },
+    {
+        "name": "Yolov3 Facial Landmark Detection",
+        "description": "This repository contains files for training and testing Yolov3 for multi-task face detection and facial landmarks extraction.",
+        "image": "./assets/yolov3-facial-landmark-detection.jpg",
+        "demo": "https://github.com/sefaburakokcu/yolov3-facial-landmark-detection",
+        "date": "2021-01-24",
+        "tags": ["yolov3", "face-detection", "widerface"]
+    },
+    {
+        "name": "ML Model Registery",
+        "description": "This project is designed for storing and organizing Machine Learning models via Web UI.",
+        "image": "./assets/ml-model-registery.png",
+        "demo": "https://github.com/sefaburakokcu/ml-model-registery",
+        "date": "2022-08-08",
+        "tags": ["machine-learning", "mlops", "webui"]
+    },
+    {
+        "name": "Finn Quantized Yolo",
+        "description": "This project contains evaluation and deploy scripts for official [LPYOLO: Low Precision YOLO for Face Detection on FPGA](https://arxiv.org/abs/2207.10482) paper.\nModels are trained by [Brevitas](https://github.com/Xilinx/brevitas) which is a PyTorch research library for quantization-aware training (QAT) and exported to [ONNX]([https://onnx.ai). [FINN](https://github.com/Xilinx/finn) which is an experimental framework from Xilinx Research Labs to explore deep neural network inference on FPGAs is used for deploying models on a [PYNQ-Z2](http://www.pynq.io/board.html) board.",
+        "image": "./assets/finn-quantized-yolo.png",
+        "demo": "https://github.com/sefaburakokcu/finn-quantized-yolo",
+        "date": "2021-09-12",
+        "tags": ["finn", "object-detection", "quantization"]
+    },
+    {
+        "name": "Dinov2 Onnx",
+        "description": "This repository contains a Python script (`onnx_inference.py`) for extracting and comparing image features using the DINOv2 model in ONNX format. The script uses the [onnxruntime](https://onnxruntime.ai/) library to load and run the model.",
+        "image": "./assets/dinov2-onnx.jpeg",
+        "demo": "https://github.com/sefaburakokcu/dinov2_onnx",
+        "date": "2024-01-07",
+        "tags": ["dinov2", "onnx", "onnxruntime"]
+    }
+]
+

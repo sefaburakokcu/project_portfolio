@@ -3,6 +3,8 @@
 
 This is a personal project showcasing various works and projects I have worked on. The webpage is built with HTML, CSS, and JavaScript, and is served using Nginx within a Docker container.
 
+![Project Home Page](assets/project_portfolio.png)  
+
 ## Project Structure
 
 ```
@@ -13,7 +15,10 @@ project_portfolio/
 ├── script.js
 ├── projects.json
 └── assets/
-   ├── favicon-32x32.png
+├── assets/
+│ ├── favicon-32x32.png
+│ └── project_portfolio.png
+└── images/
    ├── dinov2-onnx.jpeg
    ├── quantized-yolov5.png
    ├── finn-quantized-classification.png
@@ -26,7 +31,8 @@ project_portfolio/
 - **styles.css**: The CSS file for styling the webpage.
 - **script.js**: The JavaScript file for adding interactivity and dynamic content loading.
 - **projects.json**: The JSON file containing project data.
-- **assets/**: Directory to store assets like the favicon and project images.
+- **assets/**: Directory to store assets like the favicon and project screen shot.
+- **images/**: Directory to store project images.
 
 ## Features
 
